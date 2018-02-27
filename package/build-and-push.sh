@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ACCT=${ACCT:-kyamazawa}
+ACCT=${ACCT:-yamazawa}
 
-docker build -t $ACCT/rke-cert-deployer:0.1.1 .
-docker push $ACCT/rke-cert-deployer:0.1.1
+docker build -t $ACCT/rke-cert-deployer-arm64:0.1.1 .
+docker push $ACCT/rke-cert-deployer-arm64:0.1.1
